@@ -80,5 +80,10 @@ public class calculadora{
         return resta;
     }
 
+      public double multiplicacion() {
+        double multiplicacion = a * b;
+        System.out.println("La multiplicación es: " + multiplicacion);
+        return multiplicacion;
+    }
 
 }
