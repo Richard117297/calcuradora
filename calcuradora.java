@@ -86,4 +86,14 @@ public class calculadora{
         return multiplicacion;
     }
 
+    public double division() { 
+        if (b == 0) {
+            System.out.println("Error: División entre cero no permitida.");
+            return 0;
+        }
+        double division =  a / b;
+        System.out.println("La división es: " + division);
+        return division;
+    }
+
 }
