@@ -61,7 +61,7 @@ public class calculadora{
                 break;
                 
             default:
-                System.out.println("La elección no existe");
+                System.out.println("La elección no existe.");
                 break;
         }
         
