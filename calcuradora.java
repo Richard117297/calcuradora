@@ -61,7 +61,7 @@ public class calculadora{
                 break;
                 
             default:
-                System.out.println("La elección no existe");
+                System.out.println("La elección no existe.");
                 break;
         }
         
@@ -84,6 +84,16 @@ public class calculadora{
         double multiplicacion = a * b;
         System.out.println("La multiplicación es: " + multiplicacion);
         return multiplicacion;
+    }
+
+    public double division() { 
+        if (b == 0) {
+            System.out.println("Error: División entre cero no permitida.");
+            return 0;
+        }
+        double division =  a / b;
+        System.out.println("La división es: " + division);
+        return division;
     }
 
 }
