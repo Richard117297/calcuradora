@@ -73,3 +73,12 @@ public class calculadora{
         System.out.println("La suma es: " + suma);
         return suma;
     }
+
+     public double resta() {
+        double resta = a - b;
+        System.out.println("La resta es: " + resta);
+        return resta;
+    }
+
+
+}
