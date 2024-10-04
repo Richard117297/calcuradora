@@ -96,4 +96,10 @@ public class calculadora{
         return division;
     }
 
+    public double potencia() {
+        double potencia = Math.pow(a, b);
+        System.out.println("La potencia es: " + potencia);
+        return potencia;
+    }
+
 }
